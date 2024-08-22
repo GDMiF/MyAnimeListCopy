@@ -1,0 +1,103 @@
+.main-info{
+  font-family: 'Ubuntu', sans-serif;
+}
+.news-content{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.news-box{
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  padding: 10px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: #534f4f;
+}
+.news-box img{
+  cursor: pointer;
+}
+.news-box h1,
+.discussions-box h1{
+  color: #abc4ed;
+  font-size: 12px;
+  cursor: pointer;
+}
+.news-box h1:hover,
+.discussions-box h1:hover{
+  text-decoration: underline;
+}
+.news-box p,
+.discussions-box p{
+  padding-top: 5px;
+  padding-bottom: 3px;
+  color: white;
+  font-size: 12px;
+}
+.news-box p2{
+  padding-top: 2px;
+  color: #a3a3a3;
+  font-size: 10px;
+}
+.news-box span,
+.discussions-box span{
+  color: #abc4ed;
+  cursor: pointer;
+}
+.news-box span:hover,
+.discussions-box span:hover{
+  text-decoration: underline;
+}
+.discussions-content{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.discussions-box{
+  padding: 10px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: #534f4f;
+}
+.discussions-box h1{
+  padding-bottom: 5px;
+}
+.news-box span2{
+  color: #FF739C;
+}
+
+
+.news-title-box{
+  display: flex;
+  justify-content: space-between;
+}
+.first-title{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.second-title p{
+  color: #a3a3a3;
+  font-size: 10px;
+}
+.news-title-box button{
+  background-color: #333333;
+  color: #abc4ed;
+  font-size: 10px;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+}
+.news-title-box button:hover{
+  color: #99b6e5;
+  background-color: #292828;
+}
+.single-pin{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 3px;
+  font-size: 11px;
+}
+.single-pin i{
+  color: rgb(208, 181, 30);
+}

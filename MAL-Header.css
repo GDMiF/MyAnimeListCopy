@@ -1,0 +1,114 @@
+header{
+  width: 1050px;
+  font-family: 'Ubuntu', sans-serif;
+}
+header button{
+  border-radius: 2px;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  color: wheat;
+}
+.header-content-img img{
+  width: 200px;
+}
+.header-content-signin{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header-content-signin p{
+  color: #abc4ed;
+  font-size: 18px;
+  padding-right: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-content-signin p:hover{
+  color: #93b2e4;
+}
+.header-content-signin button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 20px;
+  background-color: #4065ba;
+  color: #e0e0e0;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 11px 14px;
+  cursor: pointer;
+}
+.header-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2E51A2;
+  height: 34px;
+}
+.navbar{
+  display: flex;
+  color: white;
+  gap: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.navbar-search{
+  display: flex;
+  gap: 3px;
+  position: relative;
+  padding: 30px;
+}
+.navbar-search button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #121212;
+  width: 90px;
+  font-size: 12px;
+  height: 22px;
+  border: none;
+  padding-left: 10px;
+  border-radius: 4px 0px 0px 4px;
+}
+.navbar-search input{
+  width: 300px;
+  height: 22px;
+  border: none;
+  background-color: #121212;
+  color: white;
+  font-size: 12px;
+  padding: 7px;
+  outline: none;
+}
+.bx-search-alt-2{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #414141;
+  color: white;
+  font-size: 14px;
+  width: 22px;
+  height: 22px;
+  right: 10px;
+  border-radius: 0px 4px 4px 0px;
+}
+.header-title{
+  display: flex;
+  align-items: center;
+  background-color: #222222;
+  color: white;
+  height: 34px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+}

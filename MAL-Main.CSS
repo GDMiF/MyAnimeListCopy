@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+:root {
+  --font-primary: 'Rancho', cursive;
+  --font-secondary: 'Pacifico', cursive;
+  --font-text: 'Ubuntu', sans-serif;
+  --font-links: 'Mitr', sans-serif;
+}
